@@ -5,20 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d987b6e1-5987-40e1-8318-5978c7fcaa8d" name="Changes" comment="Dropdowns and some more xpath">
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/base/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day5/T5_multi_dropdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/T1_alerts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day6/T2_iframe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T00_login_docuport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T0_iframe_practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T1_windows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T2_window.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T3_WebTables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/BrowserUtilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportWebTableUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T000_singleton_pattern_example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T000_singleton_practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T00_test_config_reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T0_pizza_order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T1_google_search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T2_java_faker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/day8/T3_upload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/homework/HwCssPracticeOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/homework/HwWithIgor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/homework/HwWithIgorThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/homework/HwWithIgorTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/PizzaOrderWebTablesUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/utilities/DocuportConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/loop/test/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/loop/test/day7/T3_WebTables.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,11 +83,22 @@
     "Maven.AutomationProjectB3 [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.HwCssPracticeOne.executor": "Run",
+    "TestNG.HwCssPracticeOne.validateByCss.executor": "Run",
+    "TestNG.HwWithIgor.taskOne.executor": "Run",
+    "TestNG.HwWithIgorThree.validateTesting.executor": "Run",
+    "TestNG.HwWithIgorTwo.docuportSample.executor": "Run",
+    "TestNG.HwWithIgorTwo.executor": "Run",
+    "TestNG.T000_singleton_practice.executor": "Run",
+    "TestNG.T000_singleton_practice.practice.executor": "Run",
     "TestNG.T00_login_docuport.executor": "Run",
     "TestNG.T00_login_docuport.test_login_logout_docuport.executor": "Run",
     "TestNG.T0_iframe_practice.executor": "Run",
     "TestNG.T0_iframe_practice.left.executor": "Run",
+    "TestNG.T0_pizza_order.test_pizza_type.executor": "Run",
     "TestNG.T1_alerts.executor": "Run",
+    "TestNG.T1_google_search.executor": "Run",
+    "TestNG.T1_google_search.google_search.executor": "Run",
     "TestNG.T1_testNg_intro (1).executor": "Run",
     "TestNG.T1_testNg_intro.atest.executor": "Run",
     "TestNG.T1_testNg_intro.atest1.executor": "Run",
@@ -93,18 +109,21 @@
     "TestNG.T1_windows.test_window_handle.executor": "Run",
     "TestNG.T2_iframe.executor": "Run",
     "TestNG.T2_iframe.iframeTest.executor": "Run",
+    "TestNG.T2_java_faker.executor": "Run",
     "TestNG.T2_testNG_with_selenium.executor": "Run",
     "TestNG.T2_window.executor": "Run",
     "TestNG.T2_window.windowHandleTest.executor": "Run",
     "TestNG.T3_WebTables.executor": "Run",
     "TestNG.T3_simple_dropdown.executor": "Run",
+    "TestNG.T3_upload.executor": "Run",
+    "TestNG.T3_upload.upload_file.executor": "Run",
     "TestNG.T4_dropdown_options.colorTest.executor": "Run",
     "TestNG.T4_dropdown_options.executor": "Run",
     "TestNG.T5_multi_dropdown.executor": "Run",
     "TestNG.T5_multi_dropdown.multiSelect.executor": "Run",
-    "git-widget-placeholder": "day__7",
+    "git-widget-placeholder": "day__8",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/gedi/IdeaProjects/AutomationProjectB3/src/test/java/io/loop/test/utilities",
+    "last_opened_file_path": "/Users/gedi/IdeaProjects/AutomationProjectB3/src/test/java/io/loop/test/day8",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -116,39 +135,23 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/io/loop/test/day8" />
       <recent name="$PROJECT_DIR$/src/test/java/io/loop/test/utilities" />
+      <recent name="$PROJECT_DIR$/src/test/java/io/loop/test/day7" />
       <recent name="$PROJECT_DIR$/src/test/java/io/loop/test/day4" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.T3_WebTables.test_webTables">
-    <configuration name="T00_login_docuport.test_login_logout_docuport" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.HwCssPracticeOne.validateByCss">
+    <configuration name="HwCssPracticeOne" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day7.*" />
+          <option name="PATTERN" value="io.loop.test.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day7" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day7.T00_login_docuport" />
-      <option name="METHOD_NAME" value="test_login_logout_docuport" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T2_window" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationProjectB3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.loop.test.day7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day7" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day7.T2_window" />
+      <option name="PACKAGE_NAME" value="io.loop.test.homework" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.homework.HwCssPracticeOne" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -156,17 +159,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T2_window.windowHandleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HwCssPracticeOne.validateByCss" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day7.*" />
+          <option name="PATTERN" value="io.loop.test.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day7" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day7.T2_window" />
-      <option name="METHOD_NAME" value="windowHandleTest" />
+      <option name="PACKAGE_NAME" value="io.loop.test.homework" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.homework.HwCssPracticeOne" />
+      <option name="METHOD_NAME" value="validateByCss" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -174,16 +177,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T3_WebTables" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HwWithIgorThree.validateTesting" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day7.*" />
+          <option name="PATTERN" value="io.loop.test.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day7" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day7.T3_WebTables" />
+      <option name="PACKAGE_NAME" value="io.loop.test.homework" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.homework.HwWithIgorThree" />
+      <option name="METHOD_NAME" value="validateTesting" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HwWithIgorTwo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationProjectB3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.loop.test.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.loop.test.homework" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.homework.HwWithIgorTwo" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -191,17 +212,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T3_WebTables.test_webTables" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HwWithIgorTwo.docuportSample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationProjectB3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.loop.test.day7.*" />
+          <option name="PATTERN" value="io.loop.test.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.loop.test.day7" />
-      <option name="MAIN_CLASS_NAME" value="io.loop.test.day7.T3_WebTables" />
-      <option name="METHOD_NAME" value="test_webTables" />
+      <option name="PACKAGE_NAME" value="io.loop.test.homework" />
+      <option name="MAIN_CLASS_NAME" value="io.loop.test.homework.HwWithIgorTwo" />
+      <option name="METHOD_NAME" value="docuportSample" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -211,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.T3_WebTables.test_webTables" />
-        <item itemvalue="TestNG.T3_WebTables" />
-        <item itemvalue="TestNG.T2_window.windowHandleTest" />
-        <item itemvalue="TestNG.T2_window" />
-        <item itemvalue="TestNG.T00_login_docuport.test_login_logout_docuport" />
+        <item itemvalue="TestNG.HwCssPracticeOne.validateByCss" />
+        <item itemvalue="TestNG.HwCssPracticeOne" />
+        <item itemvalue="TestNG.HwWithIgorThree.validateTesting" />
+        <item itemvalue="TestNG.HwWithIgorTwo.docuportSample" />
+        <item itemvalue="TestNG.HwWithIgorTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -239,6 +260,12 @@
       <workItem from="1719754908958" duration="12594000" />
       <workItem from="1719875734694" duration="5000" />
       <workItem from="1720359298893" duration="14329000" />
+      <workItem from="1720739236166" duration="5496000" />
+      <workItem from="1720744921178" duration="4417000" />
+      <workItem from="1721091654063" duration="3361000" />
+      <workItem from="1721244298595" duration="6828000" />
+      <workItem from="1721259534073" duration="13000" />
+      <workItem from="1721332797659" duration="5547000" />
     </task>
     <task id="LOCAL-00001" summary="My first Commit">
       <option name="closed" value="true" />
